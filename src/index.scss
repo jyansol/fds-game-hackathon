@@ -3,3 +3,33 @@ $main-color: skyblue;
 body {
   background-color: $main-color;
 }
+h1,
+.result {
+  text-align: center;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  margin: 1px;
+}
+
+.col.checked {
+  background-color: black;
+}
+
+.again {
+  display: none;
+}
+
+.again.open {
+  display: block;
+  margin: 0 auto;
+}
